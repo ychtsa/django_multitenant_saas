@@ -28,7 +28,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 
 # Allowed hosts (configure via .env)
-ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['localhost', '127.0.0.1'])
+ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['.localhost', '127.0.0.1',])
 
 # APPLICATION DEFINITION
 # Shared apps: apps used across all schemas
@@ -57,9 +57,9 @@ INSTALLED_APPS = SHARED_APPS + TENANT_APPS
 # Database router for syncing both shared and tenant apps
 DATABASE_ROUTERS = ('django_tenants.routers.TenantSyncRouter',)
 
-# ---- Middleware ----
+
 MIDDLEWARE = [
-    'django_tenants.middleware.TenantMiddleware',  # Tenant resolution middleware
+    'django_tenants.middleware.TenantMainMiddleware',  # Tenant resolution middleware
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

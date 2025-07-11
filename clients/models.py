@@ -23,7 +23,7 @@ class Client(TenantMixin):
             # Run migrations for the new tenant schema after committing
             transaction.on_commit(
                 lambda: call_command(
-                    "migrate_schemas", tenant=[self.schema_name], interactive=False, verbosity=0
+                    "migrate_schemas", schema_name=self.schema_name, noinput=True, verbosity=0
                 )
             )
 
