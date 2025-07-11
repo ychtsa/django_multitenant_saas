@@ -16,12 +16,12 @@ Key highlights:
 
 ## Table of Contents
 
-* [Create Database & User](#create-database-user)
-* [Quick Start](#quick-start)
-* [Create Tenants & Admin Users](#create-tenants-admin-users)
-* [Project Structure](#project-structure)
-* [Running Tests](#running-tests)
-* [Common Management Commands](#common-management-commands)
+* [Create Database & User](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#create-database--user)
+* [Quick Start](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#quickstart)
+* [Create Tenants & Admin Users](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#create-tenants--admin-users)
+* [Project Structure](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
+* [Running Tests](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
+* [Common Management Commands](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
 
 ---
 
