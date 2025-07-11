@@ -20,8 +20,8 @@ Key highlights:
 * [Quick Start](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#quickstart)
 * [Create Tenants & Admin Users](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#create-tenants--admin-users)
 * [Project Structure](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
-* [Running Tests](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
-* [Common Management Commands](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#projectstructure)
+* [Running Tests](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#runningtests)
+* [Common Management Commands](https://github.com/ychtsa/django_multitenant_saas/blob/main/README.md#commonmanagementcommands)
 
 ---
 
