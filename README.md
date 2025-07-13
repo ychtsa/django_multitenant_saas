@@ -72,6 +72,7 @@ $ cp .env.example .env  # Windows: copy .env.example .env
 $ python manage.py shell
 >>>from django.core.management.utils import get_random_secret_key
 >>>print(get_random_secret_key())
+>>>exit()
 
 Open .env and fill in:
     # Use get_random_secret_key to generate
