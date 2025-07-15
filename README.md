@@ -49,6 +49,10 @@ Check first:
     python --version # ≥ 3.10
     psql --version   # ≥ 13
     git --version
+Install Django package:
+    pip install django-tenants
+    pip install djangorestframework
+    pip install django-envrion
 
 # 1 Clone & enter repo
 $ git clone https://github.com/YOURNAME/django-multitenant-saas.git
