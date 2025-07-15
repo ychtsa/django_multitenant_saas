@@ -53,6 +53,13 @@ Install Django package:
     pip install django-tenants
     pip install djangorestframework
     pip install django-environ
+Install PostgreSQL adapter:
+    pip install psycopg2
+Install and use direnv for the .env & .envrc file:
+    brew install direnv
+    echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc    # MacOS / zsh
+    echo 'eval "$(direnv hook bash)"' >> ~/.bashrc  # bash
+Create a .envrc file and put dotenv inside of the file
 
 # 1 Clone & enter repo
 $ git clone https://github.com/YOURNAME/django-multitenant-saas.git
