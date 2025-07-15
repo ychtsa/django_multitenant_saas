@@ -52,7 +52,7 @@ Check first:
 Install Django package:
     pip install django-tenants
     pip install djangorestframework
-    pip install django-envrion
+    pip install django-environ
 
 # 1 Clone & enter repo
 $ git clone https://github.com/YOURNAME/django-multitenant-saas.git
