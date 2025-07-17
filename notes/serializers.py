@@ -12,7 +12,7 @@ class NoteSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Note
-        fields = ("id", "slug", "title", "body", "created_at")
+        fields = ("id", "slug", "title", "body", "created_at", "updated_at")
         read_only_fields = ("id", "slug", "created_at")
 
     def validate_body(self, value: str) -> str:
